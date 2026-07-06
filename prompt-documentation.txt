@@ -1,0 +1,545 @@
+ERSONAL PORTFOLIO WEBSITE DOCUMENTATION USING THE DEWEY DECIMAL CLASSIFICATION (DDC) SYSTEM
+Project Title
+
+Responsive Personal Portfolio Website
+
+Project Description
+
+The Personal Portfolio Website is a responsive one-page website developed using HTML5 and Vanilla CSS. The website was designed to showcase the developer's personal brand, technical skills, projects, learning journey, and professional contact information while maintaining a modern, clean and responsive user interface.
+
+Unlike traditional web development, this project adopted a Vibe Engineering approach where the website was developed incrementally through prompt engineering. Each section was designed, reviewed, refined, and improved before proceeding to the next section.
+
+The project follows a mobile-first development methodology while utilizing semantic HTML5 elements such as header, nav, main, section, article, and footer to improve accessibility, maintainability, responsiveness, and search engine optimization.
+
+1.0 PERSONAL PORTFOLIO WEBSITE
+Description
+
+A responsive one-page portfolio website developed to introduce the developer professionally, showcase technical skills and projects, provide access to an ATS-compliant resume, and encourage recruiters and potential employers to establish contact.
+
+Development Approach
+Vibe Engineering (Iterative Prompt Engineering)
+Mobile-first design methodology
+Semantic HTML5 document structure
+Responsive layouts using CSS Flexbox and CSS Grid
+Glassmorphism User Interface
+Editorial-style Hero Layout
+Responsive Typography
+Component-based development
+Font Awesome Icon Library
+Progressive section-by-section development
+1.1 HEADER SECTION
+Original Prompt Used
+
+I am your client and you are a beginner web developer proficient in HTML5 and Vanilla CSS.
+
+We will build a responsive portfolio website section by section.
+
+General Rules
+
+Use only HTML5 and Vanilla CSS.
+Use semantic HTML elements wherever appropriate (header, nav, main, section, article, aside, footer, etc.).
+Use a mobile-first design approach.
+Ensure all layouts are responsive for mobile, tablet, and desktop screens.
+Explain major design decisions before or after providing code.
+Challenge my decisions if there is a more professional, accessible, or user-friendly alternative.
+Maintain and continuously update DDC documentation throughout the project.
+Include the original prompt used to generate each section in the final DDC documentation.
+Build one section at a time and wait for approval before proceeding.
+
+Project Brief
+
+We are building a personal portfolio website that feels:
+
+Modern
+Clean
+Professional
+Feminine without being childish
+Confident ("Boss Woman")
+Approachable ("Just a Girl")
+
+We will begin with the Header section.
+
+Refinement Prompts Used
+Prompt 1
+
+"I think I would prefer the glass morphism effect, then let us use download cv if it does better."
+
+Prompt 2
+
+"I hope you made provision for responsiveness and I think you have to output the most recent version of the code that I will be putting into my VS Code."
+
+Prompt 3
+
+"For the icons... I noticed you used the icons directly instead of getting from Font Awesome or Google Fonts. Please I'd rather we use icon libraries for icons."
+
+Prompt 4
+
+"Please give me the full updated HTML and CSS header."
+
+Components Built
+1.1.1 Brand Identity
+1.1.1.1 KU Personal Monogram
+1.1.1.2 Personal Name
+1.1.2 Navigation Menu
+1.1.2.1 About Link
+1.1.2.2 Skills Link
+1.1.2.3 Projects Link
+1.1.2.4 Contact Link
+1.1.3 Resume Section
+1.1.3.1 Download CV Button
+1.1.3.2 Hover Animation
+1.1.3.3 Font Awesome Download Icon
+1.1.4 Glassmorphism Navigation
+1.1.4.1 Sticky Header
+1.1.4.2 Semi-transparent Background
+1.1.4.3 Backdrop Blur Effect
+1.1.4.4 Border Transparency
+1.1.5 Responsive Navigation
+1.1.5.1 Mobile Layout
+1.1.5.2 Tablet Layout
+1.1.5.3 Desktop Layout
+Design Decisions
+
+Glassmorphism was selected after evaluating multiple navigation styles because it complemented the modern and professional personality of the portfolio.
+
+The Download CV button replaced the Resume button because it communicates the intended action more clearly to recruiters.
+
+Font Awesome icons replaced Unicode icons to improve scalability, consistency, accessibility, and professional appearance.
+
+The navigation bar was implemented using sticky positioning to ensure quick access to navigation links throughout the website.
+
+The entire header was developed using a mobile-first responsive approach.
+
+1.2 HERO SECTION
+Original Prompt Used
+
+"I don't think I'll be making the change, let us move to hero section."
+
+Refinement Prompts Used
+Prompt 1
+
+"I prefer the option B with asymmetrical layout that unique and editorial style."
+
+Prompt 2
+
+"Okay, please make this new improvement and give me updated code so we can forge ahead."
+
+Components Built
+1.2.1 Hero Container
+1.2.1.1 Responsive Hero Section
+1.2.1.2 Editorial Layout
+1.2.2 Hero Content
+1.2.2.1 Greeting Text
+1.2.2.2 Main Heading
+1.2.2.3 Professional Introduction
+1.2.3 Call-To-Action Section
+1.2.3.1 View Projects Button
+1.2.3.2 Download CV Button
+1.2.3.3 Button Hover Effects
+1.2.4 Hero Image
+1.2.4.1 Professional Portrait
+1.2.4.2 Rounded Image Container
+1.2.4.3 Decorative Background Blob
+1.2.4.4 Responsive Image Scaling
+1.2.5 Hero Layout
+1.2.5.1 Mobile Column Layout
+1.2.5.2 Tablet Layout
+1.2.5.3 Desktop Asymmetrical Layout
+Design Decisions
+
+The Hero section adopted an editorial-style asymmetrical layout instead of the traditional centered layout to create a unique visual identity.
+
+Large typography was used to immediately establish the developer's professional identity.
+
+The professional portrait was positioned inside a rounded container with a decorative background shape to create depth while maintaining a clean interface.
+
+The primary call-to-action directs users to the Projects section while the secondary action provides immediate access to the ATS-compliant CV.
+
+CSS Grid was selected for the desktop layout to provide greater flexibility than Flexbox for the asymmetrical design.
+
+1.3 SKILLS SECTION
+Original Prompt Used
+
+"Okay, on that note let's do Skills, Projects, About and Contact. Then let us do code for Skills next."
+
+Refinement Prompts Used
+Prompt 1
+
+"Please let's move to Project section."
+
+(The transition to the next section confirmed the Skills section implementation.)
+
+Components Built
+1.3.1 Skills Section Container
+1.3.1.1 Section Heading
+1.3.1.2 Section Description
+1.3.2 Skills Grid
+1.3.2.1 Mobile Single Column Layout
+1.3.2.2 Tablet Two Column Layout
+1.3.2.3 Desktop Four Column Layout
+1.3.3 Skill Cards
+1.3.3.1 HTML5 Card
+1.3.3.2 CSS3 Card
+1.3.3.3 JavaScript Card
+1.3.3.4 Tailwind CSS Card
+1.3.3.5 Responsive Design Card
+1.3.3.6 GitHub Card
+1.3.3.7 AI Prompting Card
+1.3.4 Font Awesome Icons
+1.3.4.1 HTML5 Icon
+1.3.4.2 CSS3 Icon
+1.3.4.3 JavaScript Icon
+1.3.4.4 Tailwind CSS Icon
+1.3.4.5 GitHub Icon
+1.3.4.6 Responsive Design Icon
+1.3.4.7 AI Prompting Icon
+1.3.5 Card Animations
+1.3.5.1 Hover Elevation
+1.3.5.2 Shadow Effects
+1.3.5.3 Smooth Transitions
+Design Decisions
+
+Instead of presenting the developer's skills as a plain list, individual skill cards were used to improve visual hierarchy and readability.
+
+Each skill card combines an icon, title, and short description to communicate both the technology and its practical application.
+
+Font Awesome icons were used throughout the section to maintain consistency with the rest of the portfolio.
+
+A soft pink background differentiates the Skills section from adjacent white sections while reinforcing the portfolio's feminine but professional visual identity.
+
+The responsive grid layout ensures optimal presentation across mobile, tablet, and desktop devices.
+
+1.4 PROJECTS SECTION
+Original Prompt Used
+
+"Please let's move to Project section."
+
+Refinement Prompts Used
+Prompt 1
+
+"Let's do the Skills, Projects, About and Contact."
+
+Prompt 2
+
+"What is the best way to fix this issue and give this section heading text for Projects more space?"
+
+Prompt 3
+
+(Provided CSS attempt for centering the Projects heading and requested guidance.)
+
+Prompt 4
+
+"I used this method but I want the section heading section tag to be in the center and I want them to be re-decorated accordingly."
+
+Components Built
+1.4.1 Projects Section Container
+1.4.1.1 Featured Work Heading
+1.4.1.2 Section Description
+1.4.2 Projects Grid
+1.4.2.1 Mobile Single Column
+1.4.2.2 Tablet Two Column Layout
+1.4.2.3 Desktop Three Column Layout
+1.4.3 Project Cards
+1.4.3.1 Project Thumbnail
+1.4.3.2 Project Title
+1.4.3.3 Project Description
+1.4.3.4 Technology Tags
+1.4.3.5 Live Demo Button
+1.4.3.6 GitHub Button
+1.4.4 Project Card Effects
+1.4.4.1 Card Hover Elevation
+1.4.4.2 Shadow Animation
+1.4.4.3 Button Hover Effects
+1.4.5 Reusable Section Heading
+1.4.5.1 Section Tag
+1.4.5.2 Decorative Divider
+1.4.5.3 Section Heading
+1.4.5.4 Section Description
+Design Decisions
+
+Project cards were designed as miniature case studies rather than simple portfolio items.
+
+Each card highlights the project title, a concise description, technologies used, and direct links to both the live project and source code.
+
+The section heading was redesigned after identifying spacing and layout issues, resulting in a reusable heading component that can be applied consistently across multiple sections.
+
+Technology tags allow recruiters to quickly identify the tools used in each project.
+
+Hover animations improve user interaction while maintaining a professional appearance.
+
+1.5 ABOUT ME SECTION
+Original Prompt Used
+
+"Let us do the About Me section."
+
+Refinement Prompts Used
+Prompt 1
+
+"Let's do that—the visual variety. Build the Contact section."
+
+(This confirmed the completion of the About section.)
+
+Components Built
+1.5.1 About Section Container
+1.5.1.1 Section Heading
+1.5.1.2 Supporting Description
+1.5.2 About Grid
+1.5.2.1 Mobile Layout
+1.5.2.2 Tablet Layout
+1.5.2.3 Desktop Three Card Layout
+1.5.3 About Cards
+1.5.3.1 Who I Am
+1.5.3.2 My Journey
+1.5.3.3 My Goal
+1.5.4 Font Awesome Icons
+1.5.4.1 User Icon
+1.5.4.2 Code Icon
+1.5.4.3 Rocket Icon
+1.5.5 Card Effects
+1.5.5.1 Hover Elevation
+1.5.5.2 Shadow Transition
+Design Decisions
+
+Rather than presenting a lengthy autobiography, the About section was divided into three concise information cards to improve readability.
+
+Each card focuses on a different aspect of the developer's professional identity, creating a balanced presentation of personality, learning journey, and future aspirations.
+
+Consistent styling with previous sections maintains visual harmony throughout the portfolio.
+
+1.6 CONTACT SECTION
+Original Prompt Used
+
+"Let's do that—the visual variety. Build the Contact section."
+
+Refinement Prompts Used
+Prompt 1
+
+"We have to do the footer section. I like your idea but it has to be sticky."
+
+(This marked the completion of the Contact section.)
+
+Components Built
+1.6.1 Contact Section Container
+1.6.1.1 Full-width Call-to-Action
+1.6.1.2 Gradient Background
+1.6.2 Contact Content
+1.6.2.1 Section Heading
+1.6.2.2 Supporting Description
+1.6.3 Contact Button
+1.6.3.1 Email Button
+1.6.3.2 Font Awesome Paper Plane Icon
+1.6.3.3 Hover Animation
+1.6.4 Social Media Links
+1.6.4.1 GitHub
+1.6.4.2 LinkedIn
+1.6.4.3 Instagram
+1.6.4.4 TikTok
+1.6.4.5 Substack
+1.6.5 Social Icons
+1.6.5.1 Circular Icon Buttons
+1.6.5.2 Hover Effects
+1.6.5.3 Responsive Wrapping
+Design Decisions
+
+Unlike previous sections, the Contact section uses a full-width gradient background to create visual contrast and signal the end of the main content.
+
+The primary call-to-action encourages recruiters and collaborators to initiate contact via email.
+
+Social media icons were grouped below the primary action to provide alternative communication channels without distracting from the main call-to-action.
+
+The section was intentionally designed without cards to introduce variety and prevent visual repetition across the portfolio.
+
+1.7 FOOTER SECTION
+Original Prompt Used
+
+"We have to do the footer section. I like your idea but it has to be sticky."
+
+Refinement Prompts Used
+Prompt 1
+
+"I hope the footer was styled for responsiveness."
+
+Prompt 2
+
+"Why 992px?"
+
+(Discussion on selecting content-driven breakpoints and maintaining consistency with the project's existing 768px and 1024px media queries.)
+
+Components Built
+1.7.1 Footer Container
+1.7.1.1 Responsive Footer Layout
+1.7.1.2 Sticky Footer Structure
+1.7.2 Personal Branding
+1.7.2.1 KU Monogram
+1.7.2.2 Personal Name
+1.7.2.3 Closing Message
+1.7.3 Social Media Section
+1.7.3.1 GitHub Link
+1.7.3.2 LinkedIn Link
+1.7.3.3 Instagram Link
+1.7.3.4 TikTok Link
+1.7.3.5 Substack Link
+1.7.4 Social Media Icons
+1.7.4.1 Circular Icon Containers
+1.7.4.2 Hover Effects
+1.7.4.3 Keyboard Focus States
+1.7.5 Copyright Section
+1.7.5.1 Copyright Notice
+1.7.5.2 Footer Divider
+1.7.6 Responsive Footer Layout
+1.7.6.1 Mobile Column Layout
+1.7.6.2 Tablet Layout
+1.7.6.3 Desktop Horizontal Layout
+Design Decisions
+
+A traditional footer was redesigned into a true sticky footer using Flexbox instead of position: fixed to avoid covering page content.
+
+A dark background was selected to provide visual contrast after the vibrant Contact section.
+
+The footer reinforces the developer's personal brand through the KU monogram and a brief closing message.
+
+Content-driven breakpoints (768px and 1024px) were adopted instead of framework-specific breakpoints to maintain consistency throughout the project.
+
+2.0 TECHNOLOGIES USED
+2.1 HTML5
+2.1.1 Semantic HTML Elements
+2.1.1.1 Header
+2.1.1.2 Navigation
+2.1.1.3 Main
+2.1.1.4 Section
+2.1.1.5 Article
+2.1.1.6 Footer
+2.2 CSS3
+2.2.1 Flexbox
+2.2.2 CSS Grid
+2.2.3 Media Queries
+2.2.4 Responsive Typography
+2.2.5 CSS Clamp()
+2.2.6 Hover Effects
+2.2.7 CSS Transitions
+2.2.8 CSS Transformations
+2.2.9 Glassmorphism Effects
+2.2.10 Gradient Backgrounds
+2.3 External Resources
+2.3.1 Google Fonts
+2.3.2 Font Awesome Icons
+2.4 Development Methodology
+2.4.1 Mobile-First Development
+2.4.2 Vibe Engineering
+2.4.3 Prompt Engineering
+2.4.4 Iterative UI Design
+3.0 RESPONSIVE DESIGN STRATEGY
+3.1 Mobile-First Development
+
+The website was designed beginning with mobile devices before progressively enhancing layouts for larger screen sizes.
+
+3.2 Tablet Optimization
+
+Tablet layouts were introduced using media queries at 768px, allowing improved spacing and multi-column layouts where appropriate.
+
+3.3 Desktop Optimization
+
+Desktop layouts were introduced at 1024px using CSS Grid and Flexbox to maximize available screen space while maintaining readability.
+
+3.4 Flexible Layout Systems
+3.4.1 CSS Flexbox
+
+Used for:
+
+Navigation
+Buttons
+Footer
+Card Alignment
+Contact Icons
+3.4.2 CSS Grid
+
+Used for:
+
+Hero Layout
+Skills Grid
+Projects Grid
+About Grid
+3.5 Responsive Typography
+
+Responsive font sizing was implemented using the CSS clamp() function to maintain readability across multiple screen sizes.
+
+3.6 Responsive Components
+3.6.1 Responsive Navigation
+3.6.2 Responsive Hero
+3.6.3 Responsive Skills Cards
+3.6.4 Responsive Project Cards
+3.6.5 Responsive About Cards
+3.6.6 Responsive Contact Section
+3.6.7 Responsive Footer
+4.0 DESIGN EVOLUTION THROUGH PROMPT ENGINEERING
+
+Throughout the project, the portfolio evolved through continuous feedback and prompt refinement rather than being generated in a single step.
+
+Several significant design improvements were introduced during development.
+
+4.1 Glassmorphism Header
+
+The original header concept evolved into a glassmorphism-inspired navigation after refinement prompts requested a more modern appearance.
+
+4.2 Resume Button Refinement
+
+The navigation button label changed from Resume to Download CV to better communicate its purpose to recruiters.
+
+4.3 Font Awesome Integration
+
+Unicode characters were replaced with Font Awesome icons to improve scalability, consistency, accessibility, and visual quality.
+
+4.4 Editorial Hero Layout
+
+The Hero section was redesigned from a conventional centered layout into an asymmetrical editorial composition to create a more distinctive visual identity.
+
+4.5 Portfolio Section Order
+
+The original website structure was refined from:
+
+Header → Hero → About → Skills → Projects → Contact
+
+to
+
+Header → Hero → Skills → Projects → About → Contact
+
+This decision prioritizes recruiter behavior by presenting technical competencies before personal information.
+
+4.6 Reusable Section Heading Component
+
+A consistent heading component was developed and reused throughout the Skills, Projects, About, and Contact sections to strengthen visual consistency.
+
+4.7 Improved Project Layout
+
+The Projects section underwent multiple refinements to improve heading spacing, card alignment, and visual hierarchy.
+
+The reusable heading component replaced an earlier layout that restricted the heading's available space.
+
+4.8 Sticky Footer Implementation
+
+Instead of using a fixed-position footer, a Flexbox-based sticky footer was implemented to improve accessibility while preventing content overlap.
+
+4.9 Responsive Refinements
+
+Content-driven media queries were adopted instead of relying on framework defaults, ensuring each breakpoint corresponded to genuine layout requirements.
+
+5.0 LESSONS LEARNED
+
+The development of this portfolio strengthened practical understanding of:
+
+5.1 HTML5 Semantic Structure
+5.2 CSS Flexbox
+5.3 CSS Grid
+5.4 Mobile-First Development
+5.5 Responsive Design
+5.6 Component-Based UI Design
+5.7 Visual Hierarchy
+5.8 Typography Selection
+5.9 Accessibility Principles
+5.10 Prompt Engineering
+5.11 Iterative Design Process
+6.0 OUTCOME
+
+The completed Personal Portfolio Website successfully delivers a modern, responsive, and recruiter-focused user experience while maintaining semantic HTML structure and clean Vanilla CSS implementation.
+
+The project demonstrates proficiency in responsive web design, component-based development, prompt engineering, and iterative interface refinement. The resulting portfolio effectively showcases the developer's technical abilities, featured projects, and professional profile while providing employers with intuitive navigation, access to an ATS-compliant CV, and multiple communication channels.
